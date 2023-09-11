@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+    background-color: rgb(47, 46, 46);
+}
+
+.contaner{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(59, 59, 59);
+
+}
+
+.creat_list{
+    background-color: rgb(208, 216, 216);
+    height: 200px;
+    border-radius: 20px;
+    
+}
+
+.creat_list div{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contaner .creat_list h1{
+    color:black;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.contaner input{
+    width: 50%;
+    height: 50px;
+    margin-top: 50px;
+    color: aliceblue;
+    background-color: rgb(53, 52, 52);
+    text-align: center;
+    font-size: 50px;
+}
+.contaner .creat_list button{
+    cursor: pointer;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.contaner .creat_list button:hover{
+    transform: scale(1.05,1.05);
+    transition: all 0.5;
+    background-color: rgb(248, 138, 241);
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+}
+
+
+button{
+    cursor: pointer;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    margin-top:20px;
+}
+
+button:hover{
+    transform: scale(1.05,1.05);
+    transition: all 0.5;
+    background-color: rgb(248, 138, 241);
+}
